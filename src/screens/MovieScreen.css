@@ -1,0 +1,17 @@
+.video__screen {
+  background-color: #111;
+  color: #fff;
+  padding-bottom: 4rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.video__player {
+  padding-top: 3.5rem;
+}
+
+.list__dialog {
+  background-color: #111;
+  color: #fff;
+  width: 18rem;
+}
