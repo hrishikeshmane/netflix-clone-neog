@@ -1,0 +1,11 @@
+.list__screen {
+  display: flex;
+  flex-direction: column;
+}
+.list__conatiner {
+  display: grid;
+  grid-template-areas: "aside main";
+}
+
+aside {
+}

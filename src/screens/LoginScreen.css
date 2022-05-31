@@ -1,0 +1,5 @@
+.list__screen {
+  padding-top: 3rem;
+  height: calc(100vh - 3rem);
+  overflow-y: auto;
+}
