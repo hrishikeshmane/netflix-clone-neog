@@ -1,5 +1,7 @@
 # Netflix Clone
 
+App live on- https://netflix-clone-neog-ah93d49tt-hrishikeshmane.vercel.app/
+
 To run locally-
 
 ```
