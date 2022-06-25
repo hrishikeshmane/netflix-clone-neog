@@ -10,6 +10,10 @@ cd netflix-clone-neog
 npm start
 ```
 
+Test credentials-
+email- test@testmail.com
+pass- 123456
+
 ## Feature
 
 - Home page
