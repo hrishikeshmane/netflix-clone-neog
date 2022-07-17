@@ -42,8 +42,18 @@ function SignInScreen() {
     <div className="signInScreen">
       <form>
         <h1>Sign In</h1>
-        <input ref={emialRef} placeholder="Email" type="email" />
-        <input ref={passwordRef} placeholder="Password" type="password" />
+        <input
+          ref={emialRef}
+          placeholder="Email"
+          type="email"
+          value="test@testmail.com"
+        />
+        <input
+          ref={passwordRef}
+          placeholder="Password"
+          type="password"
+          value="123456"
+        />
         <button type="submit" onClick={signIn}>
           Sign In
         </button>
