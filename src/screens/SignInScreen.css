@@ -14,10 +14,17 @@
 .signInScreen > form > input {
   outline-width: 0;
   height: 40px;
-  margin-bottom: 14px;
   border-radius: 5px;
   border: none;
   padding: 5px 15px;
+}
+
+.signInScreen > form > small {
+  font-size: 0.8rem;
+  color: gray;
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 5px;
 }
 
 .signInScreen > form > button {
@@ -28,7 +35,7 @@
   background-color: #e50914;
   font-weight: 600;
   border: none;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
   cursor: pointer;
 }

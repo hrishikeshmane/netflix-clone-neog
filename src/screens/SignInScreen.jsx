@@ -42,18 +42,14 @@ function SignInScreen() {
     <div className="signInScreen">
       <form>
         <h1>Sign In</h1>
-        <input
-          ref={emialRef}
-          placeholder="Email"
-          type="email"
-          value="test@testmail.com"
-        />
-        <input
-          ref={passwordRef}
-          placeholder="Password"
-          type="password"
-          value="123456"
-        />
+        <input ref={emialRef} placeholder="Email" type="email" />
+        <small>
+          Test email: <b>test@testmail.com</b>
+        </small>
+        <input ref={passwordRef} placeholder="Password" type="password" />
+        <small>
+          Test password: <b>123456</b>
+        </small>
         <button type="submit" onClick={signIn}>
           Sign In
         </button>
@@ -64,6 +60,9 @@ function SignInScreen() {
             Sign Up now.
           </span>
         </h4>
+        <small>
+          To Sign up, enter your credentials and click <i>Sign Up now</i>.
+        </small>
       </form>
     </div>
   );
